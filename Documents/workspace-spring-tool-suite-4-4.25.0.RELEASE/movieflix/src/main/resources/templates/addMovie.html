@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Movie</title>
+</head>
+<body>
+<h2>Admin can add Movies here</h2>
+
+	<form action = "/Addmovie" method="post">
+	
+		<label> Movie Name:</label> <input type="text" name="movieName" placeholder="movie Title">  <br/> <br/>
+		<label> Movie Director:</label> <input type="text" name="movieDirector" placeholder="movie Director">  <br/> <br/>
+		<label> Movie Link:</label> <input type="text" name="movieLink" placeholder="movie Link">  <br/> <br/>
+		<label> Movie Cast:</label> <input type="text" name="movieCast" placeholder="movie cast">  <br/> <br/>
+		
+		<label> Movie Genre:</label> <br/> <br/>
+		<select name=movieGenre>
+		<option value="sci-fi">Sci-fi</option>
+		<option value="Romance">Romance</option>
+		<option value="Horror">Horror</option>
+		<option value="comdey">Comedy</option>		
+		<option value="Action">Action</option>
+		</select>
+		<br/> <br/>
+		<input type="submit" value="add-movie">
+	</form>
+</body>
+</html>
